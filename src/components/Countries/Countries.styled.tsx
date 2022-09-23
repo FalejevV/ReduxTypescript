@@ -44,6 +44,7 @@ export const CountriesGrid = styled.div`
     row-gap:60px;
     justify-items: flex-start;
     align-items: flex-start;
+    justify-content: space-between;
     grid-template-columns: repeat(4, 260px);
     padding-top: 50px;
     gap:60px;
