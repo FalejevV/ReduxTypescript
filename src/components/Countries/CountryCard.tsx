@@ -48,7 +48,7 @@ function CountryCard(props:{
 }){
     return(
         <CardContainer to={props.title}>
-            <FlagImage src={props.image} />
+            <FlagImage alt={props.title} src={props.image} />
 
             <CardInfo>
                 <CardTitle>{props.title}</CardTitle>
