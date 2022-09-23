@@ -20,7 +20,7 @@ const theme = {
 }
 
 function Countries(){
-    const [themeId, setThemeId] = React.useState(0);
+    const [themeId, setThemeId] = React.useState(1);
     const dispatch = useAppDispatch();
     
     React.useEffect(() => {
